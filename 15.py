@@ -77,19 +77,7 @@ def hero():
     clear()
     y=1
     newperiod=period
-    banner='figlet ########  ##     ##  ######  ######## 
-
-##     ##  ##   ##  ##    ## ##       
-
-##     ##   ## ##   ##       ##       
-
-########     ###    ##       ######   
-
-##   ##     ## ##   ##       ##       
-
-##    ##   ##   ##  ##    ## ##       
-
-##     ## ##     ##  ######  ######## '
+    banner='figlet RXCE 2.0'
     numbers=[]
     while(y):
         clear()
@@ -143,7 +131,7 @@ if(expirydate>today and playday==today):
     Finalend = now.replace(hour=21, minute=5, second=0, microsecond=0)
 
     if (True):
-            period=6
+            period=7
             hero()
     if(now>Second and now<Secondend):
             period=290
