@@ -11,7 +11,7 @@ from base64 import b64decode,b64encode
 from datetime import date
 
 expirydate = datetime.date(2021, 10, 30)
-playday = datetime.date(2021, 10,16)
+#playday = datetime.date(2021, 10,17)
 #expirydate = datetime.date(2021, 8, 30)
 today=date.today()
 def hero():
@@ -117,7 +117,7 @@ def hero():
             print("Play on next specified time!!")
             print("-----------Current Time UP----------")
             sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
-            print(numbers)
+            #print(numbers)
 
 if(expirydate>today and playday==today):
     now = datetime.datetime.now()
@@ -131,7 +131,7 @@ if(expirydate>today and playday==today):
     Finalend = now.replace(hour=21, minute=5, second=0, microsecond=0)
 
     if (True):
-            period=251
+            period=1
             hero()
     if(now>Second and now<Secondend):
             period=290
